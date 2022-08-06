@@ -1,0 +1,22 @@
+body{
+    /* 背景をグラデーションにする */
+background: linear-gradient(45deg, #a98db5, #f6d8da);
+color:#270f0f;
+}
+
+    /* 画像にふちをつける */
+img {
+    padding: 5px;
+    border: 9px solid rgb(255, 255, 255);
+}
+
+/* フッターの色 */
+footer{
+    background-color:#c687c0;
+    }
+
+    .fade{
+
+        animation: fadeIn 0.2s ease 0.3s 1 normal;
+      
+      }
