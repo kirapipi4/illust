@@ -1,6 +1,6 @@
 body{
     /* 背景をグラデーションにする */
-background: linear-gradient(45deg, #a98db5, #f6d8da);
+background: linear-gradient(45deg, #fff0be, #f6d8da);
 color:#270f0f;
 }
 
@@ -12,11 +12,32 @@ img {
 
 /* フッターの色 */
 footer{
-    background-color:#c687c0;
+    background-color:#fff0be;
     }
 
     .fade{
 
         animation: fadeIn 0.2s ease 0.3s 1 normal;
       
+      }
+
+/* 文字の装飾のやつやで */
+.solid_line {
+    /*上と下にグレイの1pxの線を引きます*/
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+  }
+  .dashed_line {
+    /*上と下に水色の1pxの破線を引きます*/
+    border-top: dashed 1px rgb(255, 255, 255);
+    border-bottom: dashed 1px rgb(255, 255, 255);	
+  }
+  p {padding: 10px
+    /*両方ともpadding10pxに*/}
+
+/* 文字の色 */
+    .shadow {
+        text-shadow: 2px 2px 3px rgb(255, 255, 255);
+        /*文字を太字にするとよりそれらしくなります*/
+        font-weight: bold;
       }
