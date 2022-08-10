@@ -37,7 +37,7 @@ footer{
 
 /* 文字の色 */
     .shadow {
-        text-shadow: 2px 2px 3px rgb(255, 255, 255);
+        text-shadow: 5px 5px 2px rgb(255, 255, 255);
         /*文字を太字にするとよりそれらしくなります*/
         font-weight: bold;
       }
