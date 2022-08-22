@@ -54,16 +54,10 @@ h1 {
 }
 
 /* h1 */
-h1:before {
-  content: '●';
-  color: white;
-  margin-right: 8px;
-}
-
 h1 {
   position: relative;
   padding: 0.6em;
-  background: #fcc5c6;
+  background: #ffced0;
 }
 
 h1:after {
@@ -72,11 +66,27 @@ h1:after {
   top: 100%;
   left: 30px;
   border: 15px solid transparent;
-  border-top: 15px solid #f297a4;
+  border-top: 15px solid #ffced0;
   width: 0;
   height: 0;
 }
 
+/* h2 */
+h2 {
+  color: #505050;/*文字色*/
+  padding: 0.5em;/*文字周りの余白*/
+  display: inline-block;/*おまじない*/
+  line-height: 1.3;/*行高*/
+  background: #ffced0;/*背景色*/
+  vertical-align: middle;
+  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+}
+
+h2:before {
+  content: '●';
+  color: white;
+  margin-right: 8px;
+}
 
 /* トップの上に出てくる奴よ */
     .navigation {
@@ -130,7 +140,7 @@ h1:after {
 /* フッターよ */
 .footer02 {
  color: #675454;
- background: #c8a5a5;
+ background: #e3bebe;
  text-align: center;
  padding: 30px;
 }
