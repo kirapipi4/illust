@@ -88,6 +88,26 @@ h2:before {
   margin-right: 8px;
 }
 
+/* h3 */
+h3 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+h3:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: rgb(232, 147, 147);
+  border-radius: 2px;
+}
+
 /* トップの上に出てくる奴よ */
     .navigation {
       width: 100%;
@@ -135,6 +155,9 @@ h2:before {
       color: #675454;
       text-decoration: none;
     }
+    a:hover {
+      color: rgb(221, 169, 206);
+    }
 /* トップおわり */
 
 /* フッターよ */
@@ -171,7 +194,4 @@ h2:before {
 /* フッターおわり */
 
 /* 画像カーソル合わせると */
-
-
-
 /* 画像おわり */
