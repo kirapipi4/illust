@@ -218,3 +218,61 @@ h3:before {
   margin: 0; 
   padding: 0;
 }
+
+/* ボタン */
+/* 008 */
+.button008 a {
+  background: rgb(133, 172, 215);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 240px;
+  padding: 10px 25px;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.button008 a:hover {
+  background: #a5cdf7;
+  color: #FFF;
+}
+
+/* 009 */
+.button009 a {
+  background: rgb(98, 129, 255);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 240px;
+  padding: 10px 25px;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.button009 a:hover {
+  background: #a3aeff;
+  color: #FFF;
+}
+
+/* 010 */
+.button010 a {
+  background: rgb(255, 98, 98);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 240px;
+  padding: 10px 25px;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.button010 a:hover {
+  background: #ffa3a3;
+  color: #FFF;
+}
