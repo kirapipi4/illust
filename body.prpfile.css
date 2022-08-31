@@ -276,3 +276,22 @@ h3:before {
   background: #ffa3a3;
   color: #FFF;
 }
+
+/* 011 */
+.button011 a {
+  background: #ffb8d7;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 240px;
+  padding: 10px 25px;
+  color: #646464;
+  transition: 0.3s ease-in-out;
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.button011 a:hover {
+  background: #ffc6c8;
+  color: rgb(244, 244, 244);
+}
